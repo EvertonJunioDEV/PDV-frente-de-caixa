@@ -52,62 +52,62 @@ ___
 
 ### Usuários
 - Cadastro de Usuário
-    **POST /usuario**
+   - **POST /usuario**
     Cadastra um novo usuário no sistema.
 - Login de Usuário
-    **POST /login**
+   - **POST /login**
     Permite que um usuário cadastrado realize o login e recebe um token de autenticação.
 - Detalhes do Perfil do Usuário
-    **GET /usuario**
+   - **GET /usuario**
     Retorna os dados do perfil do usuário logado.
 - Editar Perfil do Usuário
-    **PUT /usuario**
+   - **PUT /usuario**
     Permite ao usuário logado atualizar as informações do seu perfil.
 ### Categorias
 - Listar Categorias
-    **GET /categoria**
+   - **GET /categoria**
     Retorna a lista de categorias disponíveis.
 ### Produtos
 - Cadastro de Produto
-    **POST /produto**
+   - **POST /produto**
     Permite ao usuário logado cadastrar um novo produto no sistema.
 - Editar Dados do Produto
-    **PUT /produto/:id**
+   - **PUT /produto/:id**
     Permite ao usuário logado atualizar as informações de um produto cadastrado.
 - Listar Produtos
-    **GET /produto**
+   - **GET /produto**
     Retorna a lista de produtos cadastrados. Pode filtrar por categoria.
 - Detalhes do Produto
-    **GET /produto/:id**
+   - **GET /produto/:id**
     Retorna os detalhes de um produto específico.
 - Excluir Produto por ID
-    **DELETE /produto/:id**
+   - **DELETE /produto/:id**
     Permite ao usuário logado excluir um produto específico.
     
 ### Clientes
 - Cadastro de Cliente
-    **POST /cliente**
+   - **POST /cliente**
     Permite ao usuário logado cadastrar um novo cliente no sistema.
 - Editar Dados do Cliente
-    **PUT /cliente/:id**
+   - **PUT /cliente/:id**
     Permite ao usuário atualizar as informações de um cliente cadastrado.
 - Listar Clientes
-    **GET /cliente**
+   - **GET /cliente**
     Retorna a lista de clientes cadastrados.
 - Detalhes do Cliente
-    **GET /cliente/:id**
+   - **GET /cliente/:id**
     Retorna os detalhes de um cliente específico.
 
 ### Pedidos
 - Cadastro de Pedido
-    **POST /pedido**
+   - **POST /pedido**
     Permite cadastrar um novo pedido no sistema, com produtos vinculados.
 - Listar Pedidos
-    **GET /pedido**
+   - **GET /pedido**
     Retorna a lista de pedidos cadastrados. Pode filtrar por cliente.
 
 ---
-### 👨‍💻 Tecnologias:
+## 👨‍💻 Tecnologias:
 - **Linguagem:** JavaScript | NODE.JS
 - **Banco De Dados:** PostgreSQL
 - **Bibliotecas:** express - aws-sdk - bcrypt - cors - cpf - dotenv - handlebars - joi - jsonwebtoken - knex - multer - nodemailer - pg

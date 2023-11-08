@@ -50,7 +50,7 @@ O servidor estará em execução e pronto para aceitar solicitações.
 ___
 # 🛣️ Rotas
 
-## Usuários
+### Usuários
 - Cadastro de Usuário
     **POST /usuario**
     Cadastra um novo usuário no sistema.
@@ -63,11 +63,11 @@ ___
 - Editar Perfil do Usuário
     **PUT /usuario**
     Permite ao usuário logado atualizar as informações do seu perfil.
-## Categorias
+### Categorias
 - Listar Categorias
     **GET /categoria**
     Retorna a lista de categorias disponíveis.
-## Produtos
+### Produtos
 - Cadastro de Produto
     **POST /produto**
     Permite ao usuário logado cadastrar um novo produto no sistema.
@@ -84,7 +84,7 @@ ___
     **DELETE /produto/:id**
     Permite ao usuário logado excluir um produto específico.
     
-## Clientes
+### Clientes
 - Cadastro de Cliente
     **POST /cliente**
     Permite ao usuário logado cadastrar um novo cliente no sistema.
@@ -98,7 +98,7 @@ ___
     **GET /cliente/:id**
     Retorna os detalhes de um cliente específico.
 
-## Pedidos
+### Pedidos
 - Cadastro de Pedido
     **POST /pedido**
     Permite cadastrar um novo pedido no sistema, com produtos vinculados.
